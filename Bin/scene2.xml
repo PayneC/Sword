@@ -1,0 +1,68 @@
+<scene width="1024" height="768">
+    <layer depth="1" camera="0" autodepth="0" tag = 1>
+	<sprite x="0" y="0" scaleX="1" scaleY="1" ratote="0" tag="1" >
+	<texture file="..\assets\bg.png" tag="1"/>
+	</sprite>
+    </layer>
+    <layer depth="0.9" camera="1" autodepth="0" tag = 1>
+	<sprite x="-10" y="650" scaleX="110" scaleY="20" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="600" y="600" scaleX="20" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="300" y="600" scaleX="20" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+    </layer>
+    <layer depth="0.1" camera="0" autodepth="0" tag = 1 getmsg = 1>
+	<buttonsprite x="0" y="0" scaleX="1" scaleY="1" ratote="0" tag="1" id="8" msg="1" Fixed="1">
+	    <texture file="..\assets\button_pause.png" tag="0"/>
+	    <texture file="..\assets\button_pause.png" tag="1"/>
+	    <texture file="..\assets\button_pause.png" tag="2"/>
+        </buttonsprite>	
+    </layer>
+
+    <window x=360 y=200 msg=1125 id=0 bg="..\assets\victory.png" close="/0" />
+
+    <window x=360 y=200 msg=1124 id=7 bg="..\assets\gameover.png" close="/0" />
+
+    <window x=360 y=250 msg=1035 id=8 bg="..\assets\window_pause.png" close="..\assets\close.png">
+	<buttonSprite  x="0" y="32" scaleX="1" scaleY="1" ratote="0" tag="1" id="4" msg="1" Fixed="1">
+	    <texture file="..\assets\chonglai0.png" tag="0"/>
+	    <texture file="..\assets\chonglai1.png" tag="1"/>
+	    <texture file="..\assets\chonglai1.png" tag="2"/>
+	</buttonSprite>
+	<buttonSprite  x="96" y="32" scaleX="1" scaleY="1" ratote="0" tag="2" id="5" msg="1" Fixed="1">
+	    <texture file="..\assets\zhuye0.png" tag="0"/>
+	    <texture file="..\assets\zhuye1.png" tag="1"/>
+	    <texture file="..\assets\zhuye1.png" tag="2"/>	
+	</buttonSprite>
+	<buttonSprite  x="192" y="32" scaleX="1" scaleY="1" ratote="0" tag="3" id="6" msg="1" Fixed="1">
+	    <texture file="..\assets\tuichu0.png" tag="0"/>
+	    <texture file="..\assets\tuichu1.png" tag="1"/>
+	    <texture file="..\assets\tuichu1.png" tag="2"/>
+	</buttonSprite>
+    </window>
+
+    <monster x=400 y=600 speed=2/>
+    <monster x=300 y=600 speed=1/>
+    <monster x=650 y=600 speed=3/>
+    <monster x=100 y=600 speed=1/>
+    <monster x=650 y=600 speed=2/>
+    <monster x=400 y=600 speed=1/>
+    <monster x=700 y=600 speed=3/>
+    <monster x=800 y=600 speed=4/>
+    <monster x=900 y=600 speed=3/>
+    <monster x=450 y=600 speed=1/>
+    <monster x=400 y=600 speed=3/>
+    <monster x=150 y=600 speed=5/>
+    <monster x=250 y=600 speed=2/>
+    <monster x=650 y=600 speed=1/>
+    <monster x=750 y=600 speed=2/>
+    <monster x=650 y=600 speed=4/>
+</scene>
+<player x=25 y=450 flagx=500 flagy=500/>

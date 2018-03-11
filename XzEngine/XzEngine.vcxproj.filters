@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{8b481537-70cd-4a87-ba06-37cf14b5ab33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Singleton">
+      <UniqueIdentifier>{be7f2759-b475-4c5b-8387-eea69db97361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\node">
+      <UniqueIdentifier>{602ff194-82e0-47fc-84fc-7eac7419c93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\texture">
+      <UniqueIdentifier>{0a5ad286-0837-407b-8783-7a4bab2c4f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\system">
+      <UniqueIdentifier>{ad574ca4-f66e-43a9-b628-85f8b3c83da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\physic">
+      <UniqueIdentifier>{10b84b76-9c63-43a2-a6b4-7d69c9844f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\main">
+      <UniqueIdentifier>{4e4f9472-da78-477e-8cc2-5ea95011faae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\audio">
+      <UniqueIdentifier>{70123146-5f1a-4f62-bfac-b90fdcfcb3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{89499ef7-2163-4ff6-89ca-5ed678a458ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\window">
+      <UniqueIdentifier>{349914f5-d7e1-4d9e-a7fc-112e76acdb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\role">
+      <UniqueIdentifier>{f8bc4a2d-ee68-4152-b2cb-80e782eaea72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\manage">
+      <UniqueIdentifier>{a49b9f78-931b-4be4-a9dc-bf4a73bee5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\app">
+      <UniqueIdentifier>{e12e3c04-bc49-4e73-b4de-67651a3cc2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\headfile">
+      <UniqueIdentifier>{24618474-42c1-4221-9d47-b01e0d5860c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\background">
+      <UniqueIdentifier>{cbe9a21a-2942-4d01-84f4-1990df721b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI">
+      <UniqueIdentifier>{d19d93c5-7d12-426a-8103-9c51450bc359}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\XzDirector.cpp">
+      <Filter>core\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzCamera.cpp">
+      <Filter>core\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzLayer.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzNode.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzObject.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzScene.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzSprite.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzAnimation.cpp">
+      <Filter>core\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzTexture.cpp">
+      <Filter>core\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzTime.cpp">
+      <Filter>core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzMessage.cpp">
+      <Filter>core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzInput.cpp">
+      <Filter>core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzPhysicBody.cpp">
+      <Filter>core\physic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzPhysicWorld.cpp">
+      <Filter>core\physic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzSystem.cpp">
+      <Filter>core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzMain.cpp">
+      <Filter>core\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzAudio.cpp">
+      <Filter>core\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzButtonSprite.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzFrameArraySprite.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzProfile.cpp">
+      <Filter>core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzEditSprite.cpp">
+      <Filter>core\node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\XzFont.cpp">
+      <Filter>core\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CRole.cpp">
+      <Filter>source\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CPlayer.cpp">
+      <Filter>source\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CMonster.cpp">
+      <Filter>source\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CGUIManage.cpp">
+      <Filter>source\manage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CResourceManage.cpp">
+      <Filter>source\manage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CApplication.cpp">
+      <Filter>source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CWindow.cpp">
+      <Filter>source\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CBackground.cpp">
+      <Filter>source\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CFlag.cpp">
+      <Filter>source\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CGameInfoUI.cpp">
+      <Filter>source\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\XzCamera.h">
+      <Filter>core\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzDirector.h">
+      <Filter>core\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzLayer.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzNode.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzObject.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzScene.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzSprite.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzAnimation.h">
+      <Filter>core\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzTexture.h">
+      <Filter>core\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzTime.h">
+      <Filter>core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzMessage.h">
+      <Filter>core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzInput.h">
+      <Filter>core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzPhysicBody.h">
+      <Filter>core\physic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzPhysicWorld.h">
+      <Filter>core\physic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzSystem.h">
+      <Filter>core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzAudio.h">
+      <Filter>core\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzButtonSprite.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzFrameArraySprite.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzProfile.h">
+      <Filter>core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzEditSprite.h">
+      <Filter>core\node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\XzFont.h">
+      <Filter>core\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CRole.h">
+      <Filter>source\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CPlayer.h">
+      <Filter>source\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CMonster.h">
+      <Filter>source\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CGUIManage.h">
+      <Filter>source\manage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CResourceManage.h">
+      <Filter>source\manage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CApplication.h">
+      <Filter>source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CXzEngine.h">
+      <Filter>source\headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CWindow.h">
+      <Filter>source\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CBackground.h">
+      <Filter>source\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CFlag.h">
+      <Filter>source\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CGameInfoUI.h">
+      <Filter>source\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

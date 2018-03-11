@@ -1,0 +1,36 @@
+<scene width="960" height="540">
+    <layer depth="0.05" camera="0" autodepth="0" tag = 2 getmsg = 1>
+	<sprite x="0" y="0" scaleX="1" scaleY="1" ratote="0" tag="1" >
+	    <texture file="..\assets\bg_load.png" tag="1"/>
+        </sprite>
+	<buttonsprite x="448" y="238" scaleX="1" scaleY="1" ratote="0" tag="0" id="1" msg="1" Fixed="1">
+	    <texture file="..\assets\button_play0.png" tag="0"/>
+	    <animation file="..\assets\button_play1.png" tag="1" row="1" col="4" begin="1" end="2" frame="2"/>
+	    <texture file="..\assets\button_play2.png" tag="2"/>
+        </buttonsprite>
+	<buttonsprite x="10" y="420" scaleX="1" scaleY="1" ratote="0" tag="0" id="2" msg="1" Fixed="0">
+	    <texture file="..\assets\button_about_0.png" tag="0"/>
+	    <texture file="..\assets\button_about_1.png" tag="1"/>
+	    <texture file="..\assets\button_about_2.png" tag="2"/>
+        </buttonsprite>
+	<buttonsprite x="84" y="420" scaleX="1" scaleY="1" ratote="0" tag="0" id="6" msg="1" Fixed="0">
+	    <texture file="..\assets\tuichu0.png" tag="0"/>
+	    <texture file="..\assets\tuichu1.png" tag="1"/>
+	    <texture file="..\assets\tuichu1.png" tag="2"/>
+        </buttonsprite>
+    </layer>
+    <window x=200 y=200 msg=1035 id=1 bg="..\assets\window_level.png" close="..\assets\close.png">
+     	<buttonSprite  x="64" y="128" scaleX="1" scaleY="1" ratote="0" tag="1" id="7" msg="1" Fixed="1">
+	    <texture file="..\assets\button_level1.png" tag="0"/>
+	    <texture file="..\assets\button_level1_1.png" tag="1"/>
+	    <texture file="..\assets\button_level1_1.png" tag="2"/>
+	</buttonSprite>
+	<buttonSprite  x="320" y="128" scaleX="1" scaleY="1" ratote="0" tag="2" id="7" msg="2" Fixed="1">
+	    <texture file="..\assets\button_level2.png" tag="0"/>
+	    <texture file="..\assets\button_level2_1.png" tag="1"/>
+	    <texture file="..\assets\button_level2_1.png" tag="2"/>	
+	</buttonSprite>
+    </window>
+    <window x=50 y=50 msg=1035 id=2 bg="..\assets\load_about.png" close="..\assets\close.png">
+    </window>
+</scene>

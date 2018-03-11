@@ -1,0 +1,300 @@
+<scene width="1980" height="1080">
+    <layer depth="1" camera="0" autodepth="0" tag = 1>
+	<sprite x="0" y="0" scaleX="1" scaleY="1" ratote="0" tag="1" >
+	<texture file="..\assets\bg.png" tag="1"/>
+	</sprite>
+    </layer>
+    <layer depth="0.9" camera="1" autodepth="0" tag = 1>
+	<sprite x="-10" y="950" scaleX="26" scaleY="5" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="150" y="900" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1500" y="900" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="250" y="850" scaleX="45" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="750" y="850" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="850" y="850" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="950" y="850" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1400" y="850" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1650" y="850" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1000" y="800" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1400" y="800" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1750" y="800" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="-10" y="750" scaleX="61" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="850" y="750" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1400" y="750" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1650" y="750" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="450" y="700" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="650" y="700" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="850" y="700" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1400" y="700" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1750" y="700" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="-10" y="650" scaleX="41" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="800" y="650" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1350" y="650" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1650" y="650" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1850" y="650" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="300" y="600" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1250" y="600" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1800" y="600" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="750" y="550" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1300" y="550" scaleX="35" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1900" y="550" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="300" y="500" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1600" y="500" scaleX="20" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="-10" y="450" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="850" y="450" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="50" y="400" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="950" y="400" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="-10" y="350" scaleX="6" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1000" y="350" scaleX="40" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="100" y="300" scaleX="50" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1250" y="300" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="-10" y="250" scaleX="16" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1150" y="250" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="50" y="200" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="250" y="200" scaleX="50" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1300" y="200" scaleX="30" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1750" y="200" scaleX="25" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="100" y="150" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1300" y="150" scaleX="10" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="1850" y="150" scaleX="15" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="150" y="100" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="250" y="100" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="350" y="100" scaleX="5" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="450" y="100" scaleX="90" scaleY="2" ratote="0" tag="1" >
+	    <texture file="..\assets\dm.png" tag="1"/>
+	    <body type="0" id="1"/>
+        </sprite>
+	<sprite x="0" y="990" scaleX="1" scaleY="1" ratote="0" tag="1" >
+	    <animation file="..\assets\fire.png" tag="1" row="2" col="1" begin="1" end="2" frame="2"/>
+	    <body type="0" id="6"/>
+        </sprite>
+    </layer>
+    <layer depth="0.1" camera="0" autodepth="0" tag = 1 getmsg = 1>
+	<buttonsprite x="0" y="0" scaleX="1" scaleY="1" ratote="0" tag="1" id="8" msg="1" Fixed="1">
+	    <texture file="..\assets\button_pause.png" tag="0"/>
+	    <texture file="..\assets\button_pause.png" tag="1"/>
+	    <texture file="..\assets\button_pause.png" tag="2"/>
+        </buttonsprite>	
+    </layer>
+    <window x=360 y=200 msg=1124 id=0 bg="..\assets\gameover.png" close="/0" />
+
+    <window x=360 y=200 msg=1125 id=0 bg="..\assets\victory.png" close="/0" />
+
+    <window x=360 y=250 msg=1035 id=8 bg="..\assets\window_pause.png" close="..\assets\close.png">
+	<buttonSprite  x="0" y="32" scaleX="1" scaleY="1" ratote="0" tag="1" id="4" msg="1" Fixed="1">
+	    <texture file="..\assets\chonglai0.png" tag="0"/>
+	    <texture file="..\assets\chonglai1.png" tag="1"/>
+	    <texture file="..\assets\chonglai1.png" tag="2"/>
+	</buttonSprite>
+	<buttonSprite  x="96" y="32" scaleX="1" scaleY="1" ratote="0" tag="2" id="5" msg="1" Fixed="1">
+	    <texture file="..\assets\zhuye0.png" tag="0"/>
+	    <texture file="..\assets\zhuye1.png" tag="1"/>
+	    <texture file="..\assets\zhuye1.png" tag="2"/>	
+	</buttonSprite>
+	<buttonSprite  x="192" y="32" scaleX="1" scaleY="1" ratote="0" tag="3" id="6" msg="1" Fixed="1">
+	    <texture file="..\assets\tuichu0.png" tag="0"/>
+	    <texture file="..\assets\tuichu1.png" tag="1"/>
+	    <texture file="..\assets\tuichu1.png" tag="2"/>
+	</buttonSprite>
+    </window>
+
+    <monster x=1300 y=300 speed=2/>
+    <monster x=1200 y=300 speed=1/>
+
+    <monster x=1500 y=100 speed=2/>
+    <monster x=1500 y=100 speed=1/>
+	
+    <monster x=500 y=100 speed=2/>
+    <monster x=500 y=100 speed=1/>
+
+    <monster x=500 y=150 speed=2/>
+    <monster x=500 y=150 speed=1/>
+
+    <monster x=500 y=250 speed=2/>
+    <monster x=500 y=250 speed=1/>
+
+    <monster x=200 y=450 speed=2/>
+    <monster x=200 y=450 speed=1/>
+
+    <monster x=500 y=450 speed=2/>
+
+    <monster x=450 y=450 speed=4/>
+    
+    <monster x=500 y=550 speed=2/>
+
+    <monster x=450 y=550 speed=4/>
+
+    <monster x=25 y=600 speed=2/>
+
+    <monster x=90 y=600 speed=4/>
+
+    <monster x=90 y=700 speed=4/>
+
+    <monster x=600 y=700 speed=2/>
+    <monster x=500 y=700 speed=4/>
+
+    <monster x=300 y=800 speed=2/>
+    <monster x=300 y=800 speed=4/>
+</scene>
+<player x=25 y=900 flagx=1600  flagy=150/>

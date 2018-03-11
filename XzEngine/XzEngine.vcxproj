@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\XzAnimation.cpp" />
+    <ClCompile Include="..\Core\XzAudio.cpp" />
+    <ClCompile Include="..\Core\XzButtonSprite.cpp" />
+    <ClCompile Include="..\Core\XzCamera.cpp" />
+    <ClCompile Include="..\Core\XzDirector.cpp" />
+    <ClCompile Include="..\Core\XzEditSprite.cpp" />
+    <ClCompile Include="..\Core\XzFont.cpp" />
+    <ClCompile Include="..\Core\XzFrameArraySprite.cpp" />
+    <ClCompile Include="..\Core\XzInput.cpp" />
+    <ClCompile Include="..\Core\XzLayer.cpp" />
+    <ClCompile Include="..\Core\XzMain.cpp" />
+    <ClCompile Include="..\Core\XzMessage.cpp" />
+    <ClCompile Include="..\Core\XzNode.cpp" />
+    <ClCompile Include="..\Core\XzObject.cpp" />
+    <ClCompile Include="..\Core\XzPhysicBody.cpp" />
+    <ClCompile Include="..\Core\XzPhysicWorld.cpp" />
+    <ClCompile Include="..\Core\XzProfile.cpp" />
+    <ClCompile Include="..\Core\XzScene.cpp" />
+    <ClCompile Include="..\Core\XzSprite.cpp" />
+    <ClCompile Include="..\Core\XzSystem.cpp" />
+    <ClCompile Include="..\Core\XzTexture.cpp" />
+    <ClCompile Include="..\Core\XzTime.cpp" />
+    <ClCompile Include="..\Source\CApplication.cpp" />
+    <ClCompile Include="..\Source\CBackground.cpp" />
+    <ClCompile Include="..\Source\CFlag.cpp" />
+    <ClCompile Include="..\Source\CGameInfoUI.cpp" />
+    <ClCompile Include="..\Source\CGUIManage.cpp" />
+    <ClCompile Include="..\Source\CMonster.cpp" />
+    <ClCompile Include="..\Source\CPlayer.cpp" />
+    <ClCompile Include="..\Source\CResourceManage.cpp" />
+    <ClCompile Include="..\Source\CRole.cpp" />
+    <ClCompile Include="..\Source\CWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\XzAnimation.h" />
+    <ClInclude Include="..\Core\XzAudio.h" />
+    <ClInclude Include="..\Core\XzButtonSprite.h" />
+    <ClInclude Include="..\Core\XzCamera.h" />
+    <ClInclude Include="..\Core\XzDirector.h" />
+    <ClInclude Include="..\Core\XzEditSprite.h" />
+    <ClInclude Include="..\Core\XzFont.h" />
+    <ClInclude Include="..\Core\XzFrameArraySprite.h" />
+    <ClInclude Include="..\Core\XzInput.h" />
+    <ClInclude Include="..\Core\XzLayer.h" />
+    <ClInclude Include="..\Core\XzMessage.h" />
+    <ClInclude Include="..\Core\XzNode.h" />
+    <ClInclude Include="..\Core\XzObject.h" />
+    <ClInclude Include="..\Core\XzPhysicBody.h" />
+    <ClInclude Include="..\Core\XzPhysicWorld.h" />
+    <ClInclude Include="..\Core\XzProfile.h" />
+    <ClInclude Include="..\Core\XzScene.h" />
+    <ClInclude Include="..\Core\XzSprite.h" />
+    <ClInclude Include="..\Core\XzSystem.h" />
+    <ClInclude Include="..\Core\XzTexture.h" />
+    <ClInclude Include="..\Core\XzTime.h" />
+    <ClInclude Include="..\Source\CApplication.h" />
+    <ClInclude Include="..\Source\CBackground.h" />
+    <ClInclude Include="..\Source\CFlag.h" />
+    <ClInclude Include="..\Source\CGameInfoUI.h" />
+    <ClInclude Include="..\Source\CGUIManage.h" />
+    <ClInclude Include="..\Source\CMonster.h" />
+    <ClInclude Include="..\Source\CPlayer.h" />
+    <ClInclude Include="..\Source\CResourceManage.h" />
+    <ClInclude Include="..\Source\CRole.h" />
+    <ClInclude Include="..\Source\CWindow.h" />
+    <ClInclude Include="..\Source\CXzEngine.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4654FAA7-0EB5-4061-B678-D2196177279F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>XzEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(SolutionDir)Include;$(SolutionDir)Include\lua-5.1.4\etc;$(SolutionDir)Include\lua-5.1.4\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IntDir>$(SolutionDir)Temp\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(SolutionDir)Include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(DXSDK_DIR)Lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>TinyXml.lib;d3d9.lib;d3dx9d.lib;winmm.lib;lua.lib;toluapp.lib;bass.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>TinyXml.lib;d3d9.lib;d3dx9d.lib;winmm.lib;lua.lib;toluapp.lib;bass.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
